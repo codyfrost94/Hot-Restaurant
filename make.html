@@ -4,18 +4,22 @@
 <head>
     <title>Hot Restaurant Reservations</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
 </head>
 
 <body>
-    <div class="row">
-        <div class="jumbotron col-8-md mx-auto">
-            <h1 class="text-center display-2">Hot Restaurant</h1>
+    <div class="container col-md-9 mx-auto">
+        <div class="jumbotron">
+            <h1 class="text-center display-2"><span class="oi oi-fire"></span> Hot Restaurant</h1>
             <hr>
-            <h2 class="text-center">We only have 5 tables! Book your seat before they are all gone!</h2>
+            <h2 class="text-center">Make your reservation</h2>
+            <br>
+            <div class="text-center">
+                <a href="/view" type="button" class="btn btn-primary btn-lg" id="view"><span class="oi oi-list"></span> View Tables</a>
+                <a href="/" type="button" class="btn btn-lg" id="view"><span class="oi oi-home"></span></button>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="jumbotron col-md-8 mx-auto">
+        <div class="container col-md-8 mx-auto">
             <form>
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -34,6 +38,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            </div>
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
